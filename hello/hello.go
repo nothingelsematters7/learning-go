@@ -1,7 +1,8 @@
-package main2
+package main
 
 import (
 	"fmt"
+	"github.com/nothingelsematters7/stringutil"
 	"os"
 	"strings"
 )
@@ -12,5 +13,7 @@ func main() {
 		who = strings.Join(os.Args[1:], " ")
 	}
 
-	fmt.Println("Hello", who)
+	greeting := "Hello " + who
+
+	fmt.Println(stringutil.Reverse(greeting))
 }
