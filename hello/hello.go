@@ -16,4 +16,8 @@ func main() {
 	greeting := "Hello " + who
 
 	fmt.Println(stringutil.Reverse(greeting))
+
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
 }
