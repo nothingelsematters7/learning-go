@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-// Profile represent user profile to be jsonified
+// ProfileXML represent user profile to be jsonified
 type ProfileXML struct {
 	Name    string
 	Hobbies []string `xml:"Hobbies>Hobby"`
